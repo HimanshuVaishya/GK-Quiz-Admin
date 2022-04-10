@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".HomeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_primary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <TextView
+        android:id="@+id/gk"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_box"
+        android:textSize="26sp"
+        android:lineSpacingExtra="1mm"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:text="Upload data \n to GK Quiz Application" />
+
+    <TextView
+        android:id="@+id/feed"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_box"
+        android:textSize="26sp"
+        android:lineSpacingExtra="1mm"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Feedback " />
+
+
+</LinearLayout>
